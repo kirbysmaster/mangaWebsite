@@ -1,0 +1,81 @@
+/*color scheme:#1A2238, #9DAAF2, #FF6A3D, #F4DB7D*/
+body{
+    background-color:#1A2238;
+    height:100%;
+}
+/*heading*/
+header{
+ background-color:#9DAAF2;
+}
+header *{
+    display:inline;
+}
+
+.header img{
+    margin-left:50px;
+    height:100px;
+    width:100px;
+}
+/*main*/
+main{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:30px;
+    height:100%;
+}
+/*catalog*/
+#catalog{
+    overflow:auto;
+    display:inline-block;
+    background-color:rgb(22, 22, 22);
+    width:50%;
+    height:500px;
+    margin-left:10%;
+    margin-right:10%;
+    padding:10px;
+
+}
+
+.manga{
+    padding:10px;
+    height:30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow:auto;
+    border-radius:6px;
+   
+}
+
+
+
+.manga img{
+    display:inline-block;
+    width:15%;
+    height:85%;
+    margin-left:5%
+}
+.manga img:active{
+    color:antiquewhite;
+}
+.manga p{
+    display:inline-block;
+    width:70%;
+    height:50%;
+    overflow:auto;
+    color:white;
+    font-size:0.7vw;
+}
+.manga p:active{
+    color:black;
+}
+
+
+
+/*sidebar*/
+#sidebar{
+    display:inline-block;
+    background-color:rgb(197, 197, 197) ;
+    width:26%;
+    height:500px;
+    overflow:auto;
+}
