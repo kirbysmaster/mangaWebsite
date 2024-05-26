@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href = "mainPageStyle.css">
+        <link rel = "stylesheet" href = "cssFolder/mainPageStyle.css">
+        <link rel="stylesheet" href="cssFolder/tab.css">
         <title>Manga Host</title>
         <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -14,9 +16,13 @@
                 <input id = "searchBar" placeholder = "search" type = "text">
                 <input id = "submit-button" type = "submit">
             </form>
+            
         
         </header>
-        <hr id = "heading-mainSeparator">
+        <section id="tab-collection">
+            <a href="index.html"><div class="tab">Main Page</div></a>
+            <a href= "feedback.html"><div class="tab">Feedback</div></a>
+        </section>
         <main>
             <section id = "catalog">
                 <a href = "assets/manga-covers/demon-slayer-1.jpg" target = "_blank">

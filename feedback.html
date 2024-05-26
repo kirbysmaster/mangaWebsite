@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="cssFolder/websiteFeedBack.css">
+    <link rel="stylesheet" href="cssFolder/tab.css">
+  </head>
+
+  <body>
+    <header>
+      
+      <img class = "logo" src="assets/bookLogo.png">
+      <h1 class = "header-title">Manga host</h1>
+      <form  id = "searchForm" >
+          <input id = "searchBar" placeholder = "search" type = "text">
+          <input id = "submit-button" type = "submit">
+      </form>
+        
+    
+    
+    </header>
+    <section id="tab-collection">
+      <a href="index.html"><div class="tab">Main Page</div></a>
+      <a href= "feedback.html"><div class="tab">Feedback</div></a>
+    </section>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Enter your name</label>
+        <input type="text" id="name" placeholder="John Doe" required></input>
+        <label for="email" id="email-label">Enter your email</label>
+        <input id="email" type="email" placeholder="a@gmail.com" required></input>
+        <label for="number" id="number-label">Enter your age</label>
+        <input id="number" type="number" min=3 max=80 placeholder="age"></input>
+        <label for="dropdown">
+          How did you find out about this website
+          <select id="dropdown">
+            <option>select one</option>
+            <option>YouTube</option>
+            <option>Instagram</option>
+            <option>friends</option>
+            <option>others</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>Do you enjoy the website</legend>
+          <label for="yes"><input value="yes" id="yes" type="radio" name="enjoyment-survey">Yes</input></label>
+          <label for="no">
+            <input value="no" id="no" type="radio" name="enjoyment-survey">No</input></label>
+
+        </fieldset>
+        <fieldset id="survey-form">
+          <legend>Will you keep on using the website</legend>
+          <label>
+            <input type="checkbox" value="yes"></input>Yes
+          </label>
+           <label>
+            <input type="checkbox" value="No" ></input>No
+          </label>
+        </fieldset>
+        <textarea placeholder="Comments?"></textarea>
+      <input id="submit" type="submit"></input>
+        
+
+      </form>
+    </main>
+    <footer>
+    </footer>
+    
+
+  </body>
+</html>
+
+
+
+
+

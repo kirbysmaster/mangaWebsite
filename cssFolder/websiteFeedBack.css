@@ -1,0 +1,31 @@
+html{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+main{
+    width:100%;
+}
+#survey-form{
+    width:60%;
+    height:100%;
+    display:flex;
+    background-color:#F1E5D1;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    row-gap:30px;
+    margin-top:10px;
+    border-radius:10px;
+    padding:10px;
+    margin:30px auto;
+    max-width:800px;
+}
+
